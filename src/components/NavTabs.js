@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const TABS = [
+  { href: "/guide", label: "스킬 사용법" },
   { href: "/generate", label: "Generate 규격" },
   { href: "/review", label: "검토 카드" },
   { href: "/calendar", label: "발행 캘린더" },
